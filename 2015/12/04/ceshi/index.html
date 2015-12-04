@@ -4,38 +4,23 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Sublime Text 2编辑.md | 前端观察</title>
+    <title>ceshi | 前端观察</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="thinkjoy-frontend">
     
 
     
-    <meta name="description" content="一、安装Package Control
-按ctrl + ` 快捷键或者菜单项View &amp;gt; Show Console 来调出命令界面
-粘贴代到命令界面并回车
-重启Sublime Text 2
-
-import urllib2,os;pf=&apos;Package Control.sublime-package&apos;;ipp=sublime.installed_packages_path();os.maked">
+    <meta name="description">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Sublime Text 2编辑.md">
-<meta property="og:url" content="http://thinkjoy-frontend.github.io/2015/11/27/Sublime-Text-2编辑/index.html">
+<meta property="og:title" content="ceshi">
+<meta property="og:url" content="http://thinkjoy-frontend.github.io/2015/12/04/ceshi/index.html">
 <meta property="og:site_name" content="前端观察">
-<meta property="og:description" content="一、安装Package Control
-按ctrl + ` 快捷键或者菜单项View &amp;gt; Show Console 来调出命令界面
-粘贴代到命令界面并回车
-重启Sublime Text 2
-
-import urllib2,os;pf=&apos;Package Control.sublime-package&apos;;ipp=sublime.installed_packages_path();os.maked">
-<meta property="og:updated_time" content="2015-11-27T02:22:18.000Z">
+<meta property="og:description">
+<meta property="og:updated_time" content="2015-12-04T07:06:41.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Sublime Text 2编辑.md">
-<meta name="twitter:description" content="一、安装Package Control
-按ctrl + ` 快捷键或者菜单项View &amp;gt; Show Console 来调出命令界面
-粘贴代到命令界面并回车
-重启Sublime Text 2
-
-import urllib2,os;pf=&apos;Package Control.sublime-package&apos;;ipp=sublime.installed_packages_path();os.maked">
+<meta name="twitter:title" content="ceshi">
+<meta name="twitter:description">
 
     
     <link rel="alternative" href="/atom.xml" title="前端观察" type="application/atom+xml">
@@ -96,14 +81,14 @@ import urllib2,os;pf=&apos;Package Control.sublime-package&apos;;ipp=sublime.ins
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/11/27/Sublime-Text-2编辑/" title="Sublime Text 2编辑.md" itemprop="url">Sublime Text 2编辑.md</a>
+      <a href="/2015/12/04/ceshi/" title="ceshi" itemprop="url">ceshi</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="thinkjoy-frontend" target="_blank" itemprop="author">thinkjoy-frontend</a>
 		
   <p class="article-time">
-    <time datetime="2015-11-27T00:21:16.000Z" itemprop="datePublished"> 发表于 2015-11-27</time>
+    <time datetime="2015-12-04T07:06:41.000Z" itemprop="datePublished"> 发表于 2015-12-04</time>
     
   </p>
 </header>
@@ -112,51 +97,14 @@ import urllib2,os;pf=&apos;Package Control.sublime-package&apos;;ipp=sublime.ins
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、安装Package_Control"><span class="toc-number">1.</span> <span class="toc-text">一、安装Package Control</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#注：以下是Sublime_Text_3的安装代码"><span class="toc-number">1.0.1.</span> <span class="toc-text">注：以下是Sublime Text 3的安装代码</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#另外：本地安装方法"><span class="toc-number">1.1.</span> <span class="toc-text">另外：本地安装方法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、安装Markdown_Preview"><span class="toc-number">2.</span> <span class="toc-text">二、安装Markdown Preview</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三、编辑"><span class="toc-number">3.</span> <span class="toc-text">三、编辑</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#四、在浏览器预览Markdown文档"><span class="toc-number">4.</span> <span class="toc-text">四、在浏览器预览Markdown文档</span></a></li></ol>
+			
 		
 		</div>
 		
-		<h2 id="一、安装Package_Control">一、安装Package Control</h2><ol>
-<li>按ctrl + ` 快捷键或者菜单项View &gt; Show Console 来调出命令界面</li>
-<li>粘贴代到命令界面并回车</li>
-<li>重启Sublime Text 2</li>
-</ol>
-<pre><code class="python"><span class="keyword">import</span> urllib2,os;pf=<span class="string">'Package Control.sublime-package'</span>;ipp=sublime.installed_packages_path();os.makedirs(ipp) <span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(ipp) <span class="keyword">else</span> <span class="keyword">None</span>;open(os.path.join(ipp,pf),<span class="string">'wb'</span>).write(urllib2.urlopen(<span class="string">'http://sublime.wbond.net/'</span>+pf.replace(<span class="string">' '</span>,<span class="string">'%20'</span>)).read())
-</code></pre>
-<h4 id="注：以下是Sublime_Text_3的安装代码">注：以下是Sublime Text 3的安装代码</h4><pre><code class="python"><span class="keyword">import</span> urllib.request,os,hashlib; h = <span class="string">'7183a2d3e96f11eeadd761d777e62404'</span> + <span class="string">'e330c659d4bb41d3bdf022e94cab3cd0'</span>; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( <span class="string">'http://sublime.wbond.net/'</span> + pf.replace(<span class="string">' '</span>, <span class="string">'%20'</span>)).read(); dh = hashlib.sha256(by).hexdigest(); print(<span class="string">'Error validating download (got %s instead of %s), please try manual install'</span> % (dh, h)) <span class="keyword">if</span> dh != h <span class="keyword">else</span> open(os.path.join( ipp, pf), <span class="string">'wb'</span> ).write(by)
-</code></pre>
-<h3 id="另外：本地安装方法">另外：本地安装方法</h3><ol>
-<li>点击Preferences &gt; Browse Packages…菜单</li>
-<li>浏览一个文件夹，然后进入Installed Packages/文件夹</li>
-<li>下载 <a href="https://packagecontrol.io/Package%20Control.sublime-package" target="_blank" rel="external">Package Control.sublime-package</a>，然后复制到Installed Packages/目录下</li>
-<li>重启Sublime Text</li>
-<li><a href="https://packagecontrol.io/installation#st2" target="_blank" rel="external">安装手册</a></li>
-</ol>
-<h2 id="二、安装Markdown_Preview">二、安装Markdown Preview</h2><ol>
-<li>按command + shift + p</li>
-<li>输入pci 后回车(Package Control: Install Package)</li>
-<li>输入Markdown Preview回车</li>
-</ol>
-<h2 id="三、编辑">三、编辑</h2><ol>
-<li>按command + n 新建一个文档</li>
-<li>按command + shift + p</li>
-<li>使用Markdown语法编辑文档</li>
-<li>语法高亮，输入ssm 后回车(Set Syntax: Markdown)</li>
-</ol>
-<h2 id="四、在浏览器预览Markdown文档">四、在浏览器预览Markdown文档</h2><ol>
-<li>按command + shift + p</li>
-<li>输入mp 后回车(Markdown Preview: current file in browser)</li>
-<li>此时就可以在浏览器里看到刚才编辑的文档了</li>
-</ol>
-  
+		  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
-
-<div class="article-categories">
-  <span></span>
-  <a class="article-category-link" href="/categories/环境配置/">环境配置</a>
-</div>
 
 
 </div>
@@ -165,7 +113,7 @@ import urllib2,os;pf=&apos;Package Control.sublime-package&apos;;ipp=sublime.ins
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://thinkjoy-frontend.github.io/2015/11/27/Sublime-Text-2编辑/" data-title="Sublime Text 2编辑.md | 前端观察" data-tsina="null" class="share clearfix">
+	  <div data-url="http://thinkjoy-frontend.github.io/2015/12/04/ceshi/" data-title="ceshi | 前端观察" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -178,19 +126,11 @@ import urllib2,os;pf=&apos;Package Control.sublime-package&apos;;ipp=sublime.ins
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2015/12/04/ceshi/" title="ceshi">
-  <strong>上一篇：</strong><br/>
-  <span>
-  ceshi</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2015/11/25/hello-world/"  title="Hello World">
+<a href="/2015/11/27/Sublime-Text-2编辑/"  title="Sublime Text 2编辑.md">
  <strong>下一篇：</strong><br/> 
- <span>Hello World
+ <span>Sublime Text 2编辑.md
 </span>
 </a>
 </div>
@@ -205,7 +145,7 @@ import urllib2,os;pf=&apos;Package Control.sublime-package&apos;;ipp=sublime.ins
 
 <section id="comments" class="comment">
   <!-- 多说评论框 start -->
-  <div class="ds-thread" data-thread-key="2015/11/27/Sublime-Text-2编辑/" data-title="Sublime Text 2编辑.md" data-url="http://thinkjoy-frontend.github.io/2015/11/27/Sublime-Text-2编辑/"></div>
+  <div class="ds-thread" data-thread-key="2015/12/04/ceshi/" data-title="ceshi" data-url="http://thinkjoy-frontend.github.io/2015/12/04/ceshi/"></div>
   <!-- 多说评论框 end -->
   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
   <script type="text/javascript">
@@ -233,7 +173,7 @@ import urllib2,os;pf=&apos;Package Control.sublime-package&apos;;ipp=sublime.ins
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、安装Package_Control"><span class="toc-number">1.</span> <span class="toc-text">一、安装Package Control</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#注：以下是Sublime_Text_3的安装代码"><span class="toc-number">1.0.1.</span> <span class="toc-text">注：以下是Sublime Text 3的安装代码</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#另外：本地安装方法"><span class="toc-number">1.1.</span> <span class="toc-text">另外：本地安装方法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、安装Markdown_Preview"><span class="toc-number">2.</span> <span class="toc-text">二、安装Markdown Preview</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三、编辑"><span class="toc-number">3.</span> <span class="toc-text">三、编辑</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#四、在浏览器预览Markdown文档"><span class="toc-number">4.</span> <span class="toc-text">四、在浏览器预览Markdown文档</span></a></li></ol>
+ 
  
   </div>
 
